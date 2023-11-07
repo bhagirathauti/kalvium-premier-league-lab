@@ -307,7 +307,7 @@ function teamHandler(evt) {
       ageBox = document.getElementById("age");
       age = ageBox.value;
       team = document.getElementById("teamflag").textContent;
-      createCards(filterByNoOfAwardsxTeamxAge(noOfAwards, team, age));
+      createCards(filterByAwardsxTeamxAge(noOfAwards, team, age));
     } catch (e) {
       console.log(e);
     }
